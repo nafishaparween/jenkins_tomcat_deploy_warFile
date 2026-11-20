@@ -35,13 +35,13 @@ pipeline{
 						sh 'mvn package'
 				}
 			}
-    stage('install')
-			{
-				steps
-        {
-						sh 'mvn install'
-				}
-			}
+   // stage('install')
+	//		{
+		//		steps
+        //{
+			//			sh 'mvn install'
+			// 	}
+			// }
 
 		
 			}
